@@ -1,6 +1,5 @@
 package kotak.loans.personalloans;
 
-import java.util.NoSuchElementException;
 import java.util.Scanner;
 
 public class ExceptionDemo 
@@ -28,6 +27,11 @@ public class ExceptionDemo
 			{
 				e.printStackTrace();
 			} 
+			finally 
+			{
+				System.out.println("iam final Block...");
+			}
+			
 		}
 	}
 
